@@ -101,3 +101,12 @@ We need to be careful when using the Init because it will not rerun if we restar
 
 https://www.gitpod.io/docs/configure/workspaces/tasks
 
+### Working with Env Vars
+
+We can list all of the env vars with the env command
+use grep to search env vars
+
+### setting/unsetting env vars
+
+set: `export HELLO='world'`
+unset: `unset HELLO`
